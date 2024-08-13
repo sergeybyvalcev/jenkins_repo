@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>2397c70e-2568-4f61-a04e-0c1c3c0572a8</xr:ObjectId>
+				<xr:ObjectId>7311b557-dbeb-4531-9088-3aae805efb36</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -228,6 +228,7 @@
 			<Subsystem>Приход</Subsystem>
 			<Subsystem>Расход</Subsystem>
 			<Subsystem>Отчеты</Subsystem>
+			<Role>ПолныеПрава</Role>
 			<CommonModule>ПроведениеДокументов</CommonModule>
 			<CommonModule>ОбщегоНазначения</CommonModule>
 			<CommonModule>ОбщегоНазначенияВызовСервера</CommonModule>
