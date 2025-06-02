@@ -30,8 +30,8 @@ pipeline
                 bat "vrunner init-dev --v8version 8.3.23.1912  --ibconnection /FC:\\repo\\jenkins_repo\\build\\ib --dt C:\\jenkins\\template\\dev.dt --db-user Teacher --src C:\\repo\\jenkins_repo\\src"
             }
         }       
-        stage("Syntax check"){
-            steps{
+        stage("Syntax check") {
+            steps {
                 bat "chcp 65001\n vrunner syntax-check"
             }
         } 
