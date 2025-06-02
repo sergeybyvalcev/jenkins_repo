@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<testsuites name="CheckConfig.base" tests="1" failures="0" skipped="0" time="10824.0722478">
+    <testsuite name="CheckConfig.base">
+        <properties/>
+        <testcase classname="CheckConfig.base" name="Все сообщения" time="10824.0722478" status="passed"/>
+    </testsuite>
+</testsuites>
