@@ -10,7 +10,7 @@ pipeline
 
     post {
         always {
-            //bat "echo hello"
+            bat "echo hello"
         }
 
         failure {
