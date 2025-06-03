@@ -1,0 +1,40 @@
+{
+"uuid": "6d3caff2-9aaf-4ffb-92ff-8eef7c2d4405",
+"historyId": "УпрФорма # тесты_ПроверкаМакетовСКД.Отчеты.Валидация корректности запроса СКД в ВедомостьПоТоварамНаСкладах: СхемаКомпоновкиДанных",
+"name": "Валидация корректности запроса СКД в ВедомостьПоТоварамНаСкладах: СхемаКомпоновкиДанных",
+"fullName": "",
+"start": 1748973082763,
+"stop": 1748973082771,
+"statusDetails": {
+"known": false,
+"muted": false,
+"flaky": false,
+"message": "",
+"trace": ""
+},
+"status": "passed",
+"stage": "finished",
+"steps": [],
+"parameters": [],
+"labels": [
+{
+"name": "story",
+"value": "Отчеты"
+},
+{
+"name": "feature",
+"value": "УпрФорма # тесты_ПроверкаМакетовСКД"
+},
+{
+"name": "package",
+"value": "УпрФорма # C:\\Program Files\\OneScript\\lib\\add\\tests\\smoke\\тесты_ПроверкаМакетовСКД.epf"
+},
+{
+"name": "host",
+"value": "УпрФорма # тесты_ПроверкаМакетовСКД"
+}
+],
+"links": [],
+"attachments": [],
+"description": "ТестДолжен_ПроверитьМакетСКД"
+}

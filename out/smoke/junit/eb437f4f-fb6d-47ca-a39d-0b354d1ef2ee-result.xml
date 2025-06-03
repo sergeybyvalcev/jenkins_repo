@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Проверка программной записи элементов справочников" time="0.014" tests="1" failures="0" errors="0" skipped="0">
+	<testsuite name="Проверка программной записи элементов справочников">
+		<testsuite name="Номенклатура - Справочник.Номенклатура">
+			<testcase classname="Номенклатура - Справочник.Номенклатура" name="Проверка записи элемента справочника - Штукатурка" time="0.014" status="passed"/>
+		</testsuite>
+	</testsuite>
+</testsuites>

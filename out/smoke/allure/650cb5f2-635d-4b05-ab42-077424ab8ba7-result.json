@@ -1,0 +1,40 @@
+{
+"uuid": "53036572-ddfa-4133-b15d-acd0f5af14bc",
+"historyId": "Проверка программной записи элементов справочников.Склады - Справочник.Склады.Проверка записи элемента справочника - Основной склад",
+"name": "Проверка записи элемента справочника - Основной склад",
+"fullName": "",
+"start": 1748973073143,
+"stop": 1748973073158,
+"statusDetails": {
+"known": false,
+"muted": false,
+"flaky": false,
+"message": "",
+"trace": ""
+},
+"status": "passed",
+"stage": "finished",
+"steps": [],
+"parameters": [],
+"labels": [
+{
+"name": "story",
+"value": "Склады - Справочник.Склады"
+},
+{
+"name": "feature",
+"value": "Проверка программной записи элементов справочников"
+},
+{
+"name": "package",
+"value": "C:\\Program Files\\OneScript\\lib\\add\\tests\\smoke\\тесты_ЗаписьЭлементовСправочников.epf"
+},
+{
+"name": "host",
+"value": "Проверка программной записи элементов справочников"
+}
+],
+"links": [],
+"attachments": [],
+"description": "Тест_ЗаписатьЭлементСправочника"
+}

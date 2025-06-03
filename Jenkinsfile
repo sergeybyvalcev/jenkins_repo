@@ -10,8 +10,8 @@ pipeline
 
     post {
         always {            
-            allure includeProperties: false, jdk: '', results: [[path: 'out/syntax-check/allure']]
-            junit 'out/syntax-check/junit/junit.xml'
+            allure includeProperties: false, jdk: '', results: [[path: 'out/syntax-check/allure'], [path: 'out/smoke/allure/allure.xml']]
+            junit 'out/*/junit/junit.xml'
         }
 
         // failure {
@@ -42,18 +42,18 @@ pipeline
                 bat "chcp 65001\n vrunner syntax-check"
             }
         }
-        // stage("Smoke tests") {
-        //     steps {
-        //         script {
-        //             try {
-        //                 bat "chcp 65001\n runner xunit"
-        //             }
-        //             catch(Exception Exc) {
-        //                 currentBuild.result = 'UNSTABLE'
-        //             }
-        //         }                
-        //     }
-        // } 
+        stage("Smoke tests") {
+            steps {
+                script {
+                    try {
+                        bat "chcp 65001\n vrunner xunit"
+                    }
+                    catch(Exception Exc) {
+                        currentBuild.result = 'UNSTABLE'
+                    }
+                }                
+            }
+        } 
  
     }
 }

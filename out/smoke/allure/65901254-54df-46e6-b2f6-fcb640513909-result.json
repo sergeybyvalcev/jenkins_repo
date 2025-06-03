@@ -1,0 +1,40 @@
+{
+"uuid": "1a5482b0-f1db-46f3-ac40-0102d425161a",
+"historyId": "smoke.Проверка чтения не-администраторами.Есть роли с полными/администраторскими полномочиями чтения - Проверка доступа на Чтение Не-Администраторами",
+"name": "Есть роли с полными/администраторскими полномочиями чтения - Проверка доступа на Чтение Не-Администраторами",
+"fullName": "",
+"start": 1748973083031,
+"stop": 1748973083031,
+"statusDetails": {
+"known": false,
+"muted": false,
+"flaky": false,
+"message": "",
+"trace": ""
+},
+"status": "passed",
+"stage": "finished",
+"steps": [],
+"parameters": [],
+"labels": [
+{
+"name": "story",
+"value": "Проверка чтения не-администраторами"
+},
+{
+"name": "feature",
+"value": "smoke"
+},
+{
+"name": "package",
+"value": "C:\\Program Files\\OneScript\\lib\\add\\tests\\smoke\\ПроверкаЧтенияНеАдминистраторами.epf"
+},
+{
+"name": "host",
+"value": "smoke"
+}
+],
+"links": [],
+"attachments": [],
+"description": "Тест_РолиОпределены"
+}

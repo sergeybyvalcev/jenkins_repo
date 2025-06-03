@@ -1,0 +1,40 @@
+{
+"uuid": "1ca7c38b-1905-4e32-b609-81a177ca6f5f",
+"historyId": "УпрФорма # Tests_SmokeCommonModules.Общие модули.Общий модуль : ОбщегоНазначенияВызовСервера {}",
+"name": "Общий модуль : ОбщегоНазначенияВызовСервера {}",
+"fullName": "",
+"start": 1748973073435,
+"stop": 1748973073547,
+"statusDetails": {
+"known": false,
+"muted": false,
+"flaky": false,
+"message": "",
+"trace": ""
+},
+"status": "passed",
+"stage": "finished",
+"steps": [],
+"parameters": [],
+"labels": [
+{
+"name": "story",
+"value": "Общие модули"
+},
+{
+"name": "feature",
+"value": "УпрФорма # Tests_SmokeCommonModules"
+},
+{
+"name": "package",
+"value": "УпрФорма # C:\\Program Files\\OneScript\\lib\\add\\tests\\smoke\\Tests_SmokeCommonModules.epf"
+},
+{
+"name": "host",
+"value": "УпрФорма # Tests_SmokeCommonModules"
+}
+],
+"links": [],
+"attachments": [],
+"description": "Fact_ServerCallModule"
+}
