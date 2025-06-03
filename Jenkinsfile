@@ -24,7 +24,7 @@ pipeline
     //     // }
 
     // }
-    
+
     stages {
         stage("Build test base") {
             steps {                
@@ -34,7 +34,7 @@ pipeline
                 // bat "chcp 65001\n echo Первый этап 65001"
                 //bat "chcp 65001\n vrunner init-dev --dt C:\\jenkins\\template\\dev.dt --db-user Teacher --src C:\\repo\\sonar_repo\\src"
                 // bat "chcp 65001\n vrunner init-dev --v8version 8.3.23.1912  --ibconnection /FC:\\repo\\jenkins_repo\\build\\ib --dt C:\\jenkins\\template\\dev.dt --db-user Teacher --src C:\\repo\\jenkins_repo\\src"
-                bat "chcp 65001\n vrunner init-dev --ibconnection /FC:\\repo\\jenkins_repo\\build\\ib --dt C:\\jenkins\\template\\dev.dt --src C:\\repo\\jenkins_repo\\src"
+                bat "chcp 65001\n vrunner init-dev --dt C:\\jenkins\\template\\dev.dt --src C:\\repo\\jenkins_repo\\src"
             }
         }       
         stage("Syntax check") {
