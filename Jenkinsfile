@@ -10,16 +10,17 @@ pipeline
 
     post {
         always {
-            bat "echo hello"
+            allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
+            junit 'out/syntax-check/junit/junit.xml'
         }
 
-        failure {
-            bat "echo failure"
-        }
+        // failure {
+        //     bat "echo failure"
+        // }
 
-        success {
-            bat "echo succes"
-        }
+        // success {
+        //     bat "echo succes"
+        // }
 
     }
     stages {
