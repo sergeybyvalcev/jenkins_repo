@@ -8,22 +8,21 @@ pipeline
         envString = 'true'
     }
 
-    // post {
-    //     // always {
-    //     //     bat "chcp 65001\n echo Конец сценарий"
-    //     //     // allure includeProperties: false, jdk: '', results: [[path: 'out/syntax-check/allure']]
-    //     //     // junit 'out/syntax-check/junit/junit.xml'
-    //     // }
+    post {
+        always {            
+            allure includeProperties: false, jdk: '', results: [[path: 'out/syntax-check/allure']]
+            junit 'out/syntax-check/junit/junit.xml'
+        }
 
-    //     // failure {
-    //     //     bat "echo failure"
-    //     // }
+        // failure {
+        //     bat "echo failure"
+        // }
 
-    //     // success {
-    //     //     bat "echo succes"
-    //     // }
+        // success {
+        //     bat "echo succes"
+        // }
 
-    // }
+    }
 
     stages {
         stage("Build test base") {
