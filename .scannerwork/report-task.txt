@@ -1,0 +1,6 @@
+projectKey=ci-cd-lesson
+serverUrl=http://localhost:9000
+serverVersion=25.2.0.102705
+dashboardUrl=http://localhost:9000/dashboard?id=ci-cd-lesson
+ceTaskId=5c408f28-e6ac-4de8-a023-c46ba6112881
+ceTaskUrl=http://localhost:9000/api/ce/task?id=5c408f28-e6ac-4de8-a023-c46ba6112881
